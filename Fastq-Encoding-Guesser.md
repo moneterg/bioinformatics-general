@@ -10,6 +10,7 @@ To inspect the encoding type from a compressed FASTQ file:
 
 ```bash
 zcat SRR1015405_1.fastq.gz | head -n 40 | awk ... (command above)
+```
 
 ⚠️ Note: This approach raised an error due to differences between _1 and _2 files.
 
