@@ -2,7 +2,7 @@
 
 This repository is a personal collection of scripts, notes, and mini-projects I developed during my work as a bioinformatician. It includes useful command-line snippets, data processing tools, and documentation related to tasks I encountered in genomics (and other omics also), sequencing, and data analysis.
 
-🚧 **Note:** This repository is a work in progress and will be updated gradually as I organize and share more of my previous work.
+🚧 **Note:** This repository is a work in progress and will be updated gradually as I organize and share more of my previous work or notes.
 
 💬 I share this content to help anyone who, like me, spent years feeling a bit lost in this sea of information.
 
