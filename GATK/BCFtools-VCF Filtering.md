@@ -6,6 +6,12 @@ In this section, I'm using **bcftools version 1.9**.
 Here, I'm selecting variant sites where **at least one sample** meets the criteria:  
 `GQ >= 20` and `DP >= 8`
 
+GQ = Genotype Quality (sample level)
+
+DP = Approximate read depth / depth of coverage (sample level)
+
+🔗 [More info](https://gatk.broadinstitute.org/hc/en-us/articles/360035531692-VCF-Variant-Call-Format)
+
 ```bash
 bcftools query -i'FMT/GQ >= 20 & FMT/DP >= 8' \
 -f'%CHROM\t%POS[\t%SAMPLE\tGQ.%GQ\tDP.%DP]\n' \
