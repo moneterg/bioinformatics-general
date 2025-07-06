@@ -27,7 +27,7 @@ X.vcf.gz | awk '{ print $1 "\t" $2 "\t" NF-2}' \
 ```
 This will generate a tab-delimited table with the positions of the variants that match your criteria.
 
-⚠️ Important: In bcftools, be careful with the use of & vs && and | vs ||, as they behave differently!
+⚠️ Important: In bcftools, be careful with the use of `&`, `&&`, `|` and `||`, as they behave differently!
 
 Useful links:
 - http://samtools.github.io/bcftools/bcftools.html
