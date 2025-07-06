@@ -2,6 +2,7 @@
 
 Great tool for calculating various metrics from a VCF file:  
 http://lysine.univ-brest.fr/vcfprocessor/index.html
+
 https://github.com/ThomasLudwig/VCFProcessor
 
 Easy to use!
